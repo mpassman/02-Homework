@@ -34,13 +34,19 @@ header {
   font-size: 20px;
 }
 
-.p {
+.container-fluid {
   color: rgb(29, 31, 29);
+  font-weight: bold;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
 }
 
-img {.
-  align-content: center;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -82,6 +88,15 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .col-25 {
   float: left;
   width: 25%;
@@ -102,17 +117,44 @@ input[type=submit]:hover {
 }
 
 /* Portfolio*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+div.box {
+  border: none
+  text-align: left;
+  padding: none
+  border: none
+  border-collapse: collapse;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   align-items: center;
-  width: 180px;
+  width: 300px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
 div.gallery img {
   width: 100%;
@@ -120,8 +162,17 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+}
+
+div.text
+{
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  align-items: center;
+  width: 1000px;
 }
 
 .h2 {
